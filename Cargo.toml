@@ -1,0 +1,10 @@
+[workspace]
+members = ["zerotex-core"]
+
+[package]
+name = "zerotex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zerotex-core = { path = "zerotex-core" }

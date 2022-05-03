@@ -1,0 +1,35 @@
+% This is the excerpt from plain TeX format
+% that contains minimal instructions to just print "Hello \TeX".
+
+% catcode definitions
+\catcode`\{=1 % left brace is begin-group character
+\catcode`\}=2 % right brace is end-group character
+\catcode`\$=3 % dollar sign is math shift
+\catcode`\&=4 % ampersand is alignment tab
+\catcode`\#=6 % hash mark is macro parameter character
+\catcode`\^=7 \catcode`\^^K=7 % circumflex and uparrow are for superscripts
+\catcode`\_=8 \catcode`\^^A=8 % underline and downarrow are for subscripts
+\catcode`\^^I=10 % ascii tab is a blank space
+
+% We make @ signs act like letters, temporarily, to avoid conflict
+% between user names and internal control sequences of plain format.
+\catcode`@=11
+
+% Assign initial values to TeX's parameters
+\hsize=6.5in
+\vsize=8.9in
+\parfillskip=0pt plus 1fil
+
+% Definitions for preloaded fonts
+\font\tenrm=cmr10 % roman text
+
+% Macros for setting ordinary text
+\def\TeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX}
+
+% Initial values for standard layout
+\tenrm % select roman font
+
+% Main content
+Hello \TeX
+
+\end
