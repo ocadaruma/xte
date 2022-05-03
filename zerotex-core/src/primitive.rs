@@ -1,49 +1,29 @@
 /// \catcode
-pub struct CatCode {
-
-}
+pub struct CatCode {}
 
 /// \hsize
-pub struct HSize {
-
-}
+pub struct HSize {}
 
 /// \vsize
-pub struct VSize {
-
-}
+pub struct VSize {}
 
 /// \parfillskip
-pub struct ParFillSkip {
-
-}
+pub struct ParFillSkip {}
 
 /// \font
-pub struct Font {
-
-}
+pub struct Font {}
 
 /// \def
-pub struct Def {
-
-}
+pub struct Def {}
 
 /// \kern
-pub struct Kern {
-
-}
+pub struct Kern {}
 
 /// \lower
-pub struct Lower {
-
-}
+pub struct Lower {}
 
 /// \hbox
-pub struct HBox {
-
-}
+pub struct HBox {}
 
 /// \end
-pub struct End {
-
-}
+pub struct End {}
