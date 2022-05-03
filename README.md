@@ -1,2 +1,2 @@
-# xte
+# ZeroTeX
 TeX revisited
